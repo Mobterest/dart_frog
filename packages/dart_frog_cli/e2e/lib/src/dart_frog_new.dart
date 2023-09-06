@@ -1,8 +1,7 @@
 import 'dart:io';
 
+import 'package:dart_frog_cli_e2e/e2e.dart';
 import 'package:test/test.dart';
-
-import 'run_process.dart';
 
 Future<void> dartFrogNewRoute(
   String routePath, {

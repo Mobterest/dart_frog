@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'run_process.dart';
+import 'package:dart_frog_cli_e2e/e2e.dart';
 
 Future<void> dartFrogCreate({
   required String projectName,

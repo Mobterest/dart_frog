@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:dart_frog_cli/src/daemon/daemon.dart';
+import 'package:dart_frog_cli_e2e/e2e.dart';
 import 'package:path/path.dart' as path;
 import 'package:test/test.dart';
 
-import '../helpers/helpers.dart';
 
 /// Objectives:
 ///

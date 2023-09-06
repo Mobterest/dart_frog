@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'helpers.dart';
+import 'package:dart_frog_cli_e2e/e2e.dart';
 
 Future<void> dartTest(Directory directory) async {
   final result = await runProcess(
