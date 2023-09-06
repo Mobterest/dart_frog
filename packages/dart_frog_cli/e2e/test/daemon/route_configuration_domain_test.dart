@@ -151,6 +151,8 @@ void main() {
         routeConfigurationEndpoints.keys.toList(),
         containsAll(['/new_route', '/']),
       );
+      print(routeConfiguration);
+      print(routeConfigurationMiddleware);
       expect(
         (routeConfigurationMiddleware.first as Map<String, dynamic>)['path'],
         '../routes/new_route/_middleware.dart',
